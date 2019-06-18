@@ -1,15 +1,28 @@
 .card {
     border-radius: 0;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
 }
 .card,
 .card-footer {
-    /* background-color: #FFFFA5; */
+    background-color: #FFFFA5;
     border: none;
+}
+.card.completed,
+.card.completed .card-footer {
+    background-color: #EEE;
+    color: #CCC;
 }
 .card-footer {
     text-align: right;
 }
-i {
+fa-icon {
     color: #CC0000;
-    padding-left: .5rem; 
+    padding-right: .5rem; 
+}
+#check {
+    color: #009668;
+}
+p {
+    padding-left: 1rem;
 }

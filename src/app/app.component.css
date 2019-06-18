@@ -1,0 +1,30 @@
+.container {
+    padding-top: 3rem;
+}
+.row {
+    margin-bottom: 1.5rem;
+}
+form {
+    text-align: center;
+}
+.btn,
+.btn:disabled:hover {
+    background-color: #009688;
+    border-color: #009688;
+    margin-left: 0.5rem;
+}
+.btn:hover {
+    background-color: #00796B;
+    border-color: #00796B;
+}
+fa-icon {
+    margin-left: 0.5rem;
+}
+.form-control:focus {
+    border-color: #009688;
+}
+h5 {
+    color: #CCC;
+    text-align: center;
+    margin-top: 3rem;
+}
